@@ -8,6 +8,11 @@
   --color-light-bg: #f1f4ff;
   --color-light-text: #5b5a59;
   --color-dark-gray-text: #222222;
+  --color-gray-higlight: #DBDEEF;
+  --color-border: #38388A1F;
+  --color-peer-checked-blue: #3E58F3;
+  --color-peer-unchcked: #C4C4C4;
+  --color-yellow:#FFD231;
 }
 *,
 *::before,
