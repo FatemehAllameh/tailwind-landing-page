@@ -20,3 +20,12 @@ hamburgerBtn.addEventListener("click", () => {
     isOpen = true;
   }
 });
+overlay.addEventListener("click", () => {
+  if (isOpen) {
+    hamburgerBtn.classList.remove("open");
+    navMenuMobile.classList.add("-left-50", "md:-left-70");
+    navMenuMobile.classList.remove("left-0");
+    overlay.classList.remove("active");
+    isOpen = false;
+  }
+});
